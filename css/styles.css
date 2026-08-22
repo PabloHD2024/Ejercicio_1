@@ -65,24 +65,36 @@ nav ul li a:hover {
 
 .receta img {
     width: 500px;
-    height: 300px;
+    height: 350px;
 }
 
 main {
     width: 100%;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #614a322a;
+}
+
+.recetarios {
+    width: 70%;
+    padding: 50px;
+    margin: 0 auto;
     
 }
 
 .receta {
-    width: 70%;
-    padding: 20px;
-    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 10px;
 }
 
 .receta h2 {
     color: #635342;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    font-size: 35px;
 }
 
 .receta p {
@@ -108,19 +120,39 @@ footer {
     background-color: rgb(138, 35, 35);
     padding: 20px;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-info {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     margin: 20px 0 40px;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
 }
 
 .footer-info h3 {
     font-size: 25px;
     margin: 20px 0;
     color:rgb(255, 145, 0)
+}
+
+.footer-info h2 {
+    font-size: 40px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.social a {
+    color: white;
 }
 
 .footer-info li {
@@ -131,4 +163,28 @@ footer {
 .copyright {
     text-align: center;
     margin: 10px 0 10px 0;
+}
+
+/*----------- Media Querys ---------------*/
+
+@media (max-width: 1200px) {
+    .ingredientes{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+@media (max-width: 786px) {
+
+    .ingredientes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ingredientes img {
+        width: auto;
+        height: auto;
+    }
+    
 }
