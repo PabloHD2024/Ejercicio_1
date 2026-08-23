@@ -70,8 +70,7 @@ main {
 
 .recetarios {
     width: 70%;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 
 .receta {
@@ -187,10 +186,32 @@ footer {
 /*----------- Media Querys ---------------*/
 
 @media (max-width: 1200px) {
+
+    .recetarios {
+        width: 90%;
+    }
+
     .ingredientes{
         display: flex;
         flex-direction: column;
         align-content: center;
+    }
+
+    .ingredientes li {
+        font-size: 15px;
+    }
+
+    .ingredientes img {
+        width: 100%;
+        height: auto;
+    }
+
+    .receta h2 {
+        font-size: 25px;
+    }
+
+    .receta p {
+        font-size: 15px;
     }
 }
 
@@ -201,9 +222,4 @@ footer {
         flex-direction: column;
     }
 
-    .ingredientes img {
-        width: auto;
-        height: auto;
-    }
-    
 }
