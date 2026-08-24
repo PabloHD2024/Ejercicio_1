@@ -75,7 +75,7 @@ main {
 
 .receta {
     background-color: rgb(255, 255, 255);
-    padding: 60px;
+    padding: 50px;
     border-radius: 20px;
     box-shadow: 2px 5px 8px 0px rgba(0, 0, 0, 0.4);
     margin: 30px 0 30px;
@@ -188,7 +188,7 @@ footer {
 @media (max-width: 1200px) {
 
     .recetarios {
-        width: 90%;
+        width: 95%;
     }
 
     .ingredientes{
@@ -206,6 +206,10 @@ footer {
         height: auto;
     }
 
+    .receta {
+        padding: 40px;
+    }
+
     .receta h2 {
         font-size: 25px;
     }
@@ -217,9 +221,34 @@ footer {
 
 @media (max-width: 786px) {
 
+    .recetarios {
+        width: 95%;
+    }
+
     .ingredientes{
         display: flex;
         flex-direction: column;
+        align-content: center;
+    }
+
+    .ingredientes li {
+        font-size: 15px;
+    }
+
+    .ingredientes img {
+        width: 100%;
+    }
+
+    .receta {
+        padding: 40px;
+    }
+
+    .receta h2 {
+        font-size: 25px;
+    }
+
+    .receta p {
+        font-size: 15px;
     }
 
 }
