@@ -88,6 +88,8 @@ main {
     background-color: rgb(255, 145, 0);
     padding: 10px;
     border-radius: 10px;
+    text-align: center;
+    font-style: italic;
 }
 
 .receta h3 {
@@ -101,7 +103,7 @@ main {
 
 .receta img {
     width: 500px;
-    height: 350px;
+    height: 400px;
     border-radius: 10px;
 }
 
