@@ -99,7 +99,7 @@ main {
     height:720px;
     background-color: white;
     margin: 20px auto;
-    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
 
@@ -119,8 +119,6 @@ main {
     text-align: center;
     font-size: 25px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    border-top-left-radius: 50px;
-
 }
 
 .receta p {
@@ -258,11 +256,11 @@ footer {
 
     .receta {
         width: 90%;
-        height: 650px;
+        height: 740px;
     }
 
     .receta h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .receta p {
